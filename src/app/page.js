@@ -1,4 +1,5 @@
 
+import Maincontents from "@/Components/Maincontents";
 import Navbar from "@/Components/navbar/Navbar";
 import VideoSlider from "@/Components/navbar/VideoSlider";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="video">
       <VideoSlider/>
       </div>
+      <Maincontents/>
     </div>
   );
 }

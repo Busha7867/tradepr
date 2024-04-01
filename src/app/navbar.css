@@ -2,6 +2,46 @@
     margin: -3px 0;
   }
   
+.new {
+  background: red;
+  color: white;
+  padding: 5px;
+  text-transform: uppercase;
+  position: absolute;
+  top: -18rem;
+  left: -18px;
+  transform: rotate(-45deg);
+  font-size: 21px;
+
+  &:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      transform: rotate(45deg);
+      border-width: 20px 20px 0 20px;
+      border-color: red transparent transparent transparent;
+      position: absolute;
+      right: -27px;
+      bottom: -3px;
+
+  }
+
+  &:after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      transform: rotate(-45deg);
+      border-width: 20px 20px 0 20px;
+      border-color: red transparent transparent transparent;
+      position: absolute;
+      left: -27px;
+      bottom: -3px;
+  }
+
+}
+  
   .product {
     /* border: 2px solid black;
     width: 500px;

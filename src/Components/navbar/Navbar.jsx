@@ -3,61 +3,64 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState,useEffect } from 'react';
+import { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import '@/app/navbar.css';
 
+
 import { BsMailbox2 } from "react-icons/bs";
-import $ from 'jquery';
+
 import Logo from '../images/logo-s.png'
 
 
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaPinterestP, FaTumblr } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
+import $ from 'jquery';
+import { useEffect } from 'react';
 
 
 
 const Navbar = () => {
 
-    
-
-  
-  const [click, setClick] = useState(false);
 
 
-  const handleClick = () => {
-    setClick(!click)
-  }
 
-  const closeMobileMenu = () => {
-    setClick(false)
+    const [click, setClick] = useState(false);
 
-  }
+
+    const handleClick = () => {
+        setClick(!click)
+    }
+
+    const closeMobileMenu = () => {
+        setClick(false)
+
+    }
     useEffect(() => {
 
-     $(document).ready(function () { 
-       $(window).scroll(function () {
-         var scroll = $(window).scrollTop();
-         if (scroll > 50) { 
-           $(".menu").css("background", "rgba(0, 0, 0, 0.5)");
-           $(".logo").css("width", "75px");
-           $(".logo").css("top", "5px");
-
-         }  
-
-        else {
-       $(".menu").css("background", "#fff");
-        $(".logo").css("width", "127px");
-       $(".logo").css("top", "-37px");
-     }
-    })
-   })
-
- }, []);
-
+        $(document).ready(function () { 
+           $(window).scroll(function () {
+             var scroll = $(window).scrollTop();
+             if (scroll > 50) { 
+               $(".menu").css("background", "rgba(0, 0, 0, 0.5)");
+               $(".menu").css("bottom","90px")
+               $(".logo").css("width", "75px");
+               $(".logo").css("top", "5px");
+   
+             }  
+   
+             else {
+           $(".menu").css("background", "#fff");
+             $(".logo").css("width", "127px");
+           $(".logo").css("top", "-37px");
+         }
+       })
+      })
+   
+    }, []);
     return (
         <div className="div">
             <div className="wrap-1">

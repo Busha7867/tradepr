@@ -1084,7 +1084,7 @@
   }
   
   .about-1 {
-    /* background: linear-gradient(180deg, #2a212199 0%, #040402ab 100%), url(../Images/2.jpg) no-repeat center /cover; */
+    background: linear-gradient(180deg, #2a212199 0%, #040402ab 100%), url(../Components/images/2.jpg) no-repeat center /cover;
     padding: 154px;
   }
   
@@ -1146,7 +1146,7 @@
   
   .about-3 {
     padding-top: 13%;
-    /* background: url(../Images/Spice72.png)no-repeat top center/cover; */
+    background: url(../Components/images/Spice72.png)no-repeat top center/cover;
     background-attachment: fixed;
   
   }

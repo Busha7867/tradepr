@@ -1,0 +1,226 @@
+input[type="text"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+input[type="email"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+.radio_box {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  
+input[type="number"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color:  #FF8F10;
+    box-shadow: 0 0 8px 0  #FF8F10;
+  }
+  input[type="number"]:focus{
+    border-color:  #FF8F10;
+    box-shadow: 0 0 8px 0  #FF8F10;
+  }
+  input[type="email"]:focus{
+    border-color:  #FF8F10;
+    box-shadow: 0 0 8px 0  #FF8F10;
+  }
+  .inputWithIcon select{
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+
+  }
+  .inputWithIcon select:focus {
+    border-color:  #FF8F10;
+    box-shadow: 0 0 8px 0  #FF8F10;
+  }
+  
+  .inputWithIcon input[type="text"] {
+    padding-left: 40px;
+  }
+  
+  .inputWithIcon input[type="number"] {
+    padding-left: 40px;
+  }
+  
+  
+  .inputWithIcon input[type="email"] {
+    padding-left: 40px;
+  }
+  
+  .inputWithIcon {
+    position: relative;
+  }
+  
+  .inputWithIcon .ficon{
+    position: absolute;
+    top: 16px;
+    left: 13px;
+    color: #aaa;
+    /* position: absolute;
+    left: 0;
+    top: 16px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s; */
+  }
+  
+  .inputWithIcon input[type="text"]:focus + .ficon {
+    color: #FF8F10;
+  }
+  .inputWithIcon input[type="number"]:focus + .ficon {
+    color: #FF8F10;
+  }
+  
+  .inputWithIcon input[type="email"]:focus + .ficon {
+    color: #FF8F10;
+  }
+  
+  .inputWithIcon.inputIconBg .ficon {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .inputWithIcon.inputIconBg input[type="text"]:focus + .ficon {
+    color: #fff;
+    background-color:  #FF8F10;
+  }
+  .inputWithIcon.inputIconBg input[type="number"]:focus + .ficon {
+    color: #fff;
+    background-color:  #FF8F10;
+  }
+  
+
+  .form{    display: grid;
+    grid-template-columns: 50% 50%
+;    gap: 10px;}
+  .contactform{
+    grid-template-columns: 100%;
+    
+  }
+
+.form_head{color: #FF8F10; margin: 20px; font-size: 20px;}
+
+.form_block{
+    border: 2px solid #FF8F10;
+    backdrop-filter: blur(20px);
+    border-radius: 1rem;
+    padding: 35px;
+    margin: 30px 0 30px 0;
+}
+textarea::placeholder{font-family: sans-serif;}
+
+.Form_btn {
+    margin: 11px auto;
+    /* font-family: "Montserrat"; */
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+
+    padding: 15px 20px;
+    border: 0px solid #000;
+  }
+  
+  /* Initiate Auto-Pulse animations */
+  .Form_btn{
+    animation: borderPulse 1000ms infinite ease-out, colorShift 10000ms infinite ease-in;
+  }
+  
+  
+  
+  /* Continue animation and add shine on hover */
+  .Form_btn:hover,
+  .Form_btn:focus {
+    animation: borderPulse 1000ms infinite ease-out, colorShift 10000ms infinite ease-in, hoverShine 200ms;
+  }
+  
+  /* Declate color shifting animation */
+  @keyframes colorShift {
+  
+    0%,
+    100% {
+      background: #F67712;
+    }
+  
+    33% {
+      background: #FFDA00;
+    }
+  
+    66% {
+      background: linear-gradient(60deg, #F67712 51%, #FFDA00 100%);
+    }
+  }
+  
+  /* Declare border pulse animation */
+  @keyframes borderPulse {
+    0% {
+      box-shadow: inset 0px 0px 0px 5px rgba(125, 15, 15, 0.4), 0px 0px 0px 0px rgb(204, 12, 12);
+    }
+  
+    100% {
+      box-shadow: inset 0px 0px 0px 3px rgba(255, 223, 117, 0.2), 0px 0px 0px 10px rgba(82, 12, 12, 0);
+    }
+  }
+  
+  .product_enquiry{
+    background: linear-gradient(180deg, #2a212199 0%, #040402ab 100%),url(../Components/images/video.jpg);
+  }
+ .menu{position: sticky; top: 0; z-index: 1;}
+
+ /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
+
+.recaptchasize{
+  transform: scale(0.90);
+    transform-origin:0 0;
+}
+.form_icon{
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    color: #aaa;
+}

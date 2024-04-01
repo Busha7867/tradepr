@@ -10,6 +10,8 @@ import Amchurimg from '@/Components/images/Amchur.jpg'
 import Navbar from '@/Components/navbar/Navbar';
 import Counterup from '@/Components/Counterup';
 import Footer from '@/Components/Footer';
+import Form from '@/Components/Form';
+
 
 
 
@@ -71,6 +73,7 @@ const Amchur = () => {
                             <p>
                                 Amchur (mango powder) is a spice produced from dried green unripe mangoes. It comes in both powder and complete form. Amchur powder is tangy and sour and is commonly used to lend a zesty flavour to a variety of Indian cuisines, whilst whole amchur can be used to infuse a moderate sourness into soups, stews, and pickles.
                             </p>
+                            <Form/>
 
                         </div>
                     </div>

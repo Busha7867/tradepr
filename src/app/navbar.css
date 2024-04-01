@@ -1373,12 +1373,12 @@
   }
   
   .green1 {
-    /* background: linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255 / 22%)), url(../Images/spice71.png) no-repeat right / cover; */
+    background: linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255 / 22%)), url(../Components/images/spice71.png) no-repeat right / cover;
     background-attachment: fixed;
   }
   
   .green_cardm {
-    width: 440px;
+    width: 440px; 
     height: 350px;
     left: 4rem;
     position: absolute;
@@ -2129,10 +2129,10 @@
     margin: 15px 0;
   }
   
-  /* .green-2 {
-    background: url(../Images/indianspice.jpg) no-repeat center/ cover;
+   .green-2 {
+    background: url(../Components/images/indianspice.jpg) no-repeat center/ cover;
   }
   
   .Rice_form {
-    background: url(../Riceimages/contactimg.jpg) no-repeat center/ cover;
-  } */
+    background: url(../Components/Riceimages/contactimg.jpg) no-repeat center/ cover;
+  } 

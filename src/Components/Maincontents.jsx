@@ -20,6 +20,8 @@ import Golden from '../Components/Riceimages/GoldenSella.jpg';
 import Shrabati from '../Components/Riceimages/Sharbatisella.jpg';
 import ShrabatiG from '../Components/Riceimages/Sharbatigolden.jpg';
 import SugandhaW from '../Components/Riceimages/SugandhaWhite.jpg';
+import Counterup from './Counterup';
+import Footer from './Footer';
 
 
 const Maincontents = () => {
@@ -30,10 +32,10 @@ const Maincontents = () => {
         setToggleState(index);
     };
 
-  return (
-    <div>
-        
-        <div className="wrap-3">
+    return (
+        <div>
+
+            <div className="wrap-3">
                 <div className="container">
                     <div className="row">
                         <div className="col-4"></div>
@@ -355,8 +357,21 @@ const Maincontents = () => {
 
                 </div>
             </div>
-    </div>
-  )
+            <div className="wrap-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-1"></div>
+                        <div className="col-10 col-m-12 col-t-12">
+                            <p className="para_hed"><span>T</span>rade Pros is one of the top-ranking businesses in the import-export industry. Our attention is constantly focused on quality control, cutting-edge equipment, excellent processing, first-rate infrastructure, a skilled workforce, personalized packaging, and the warehousing division. Our rapidly expanding business is adept at meeting the expanding client demand globally.</p>
+                        </div>
+                        <div className="col-1"></div>
+                    </div>
+                </div>
+            </div>
+            <Counterup/>
+            <Footer/>
+        </div>
+    )
 }
 
 export default Maincontents

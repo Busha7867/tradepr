@@ -529,10 +529,10 @@
   }
   
   .wrap-5 {
-    /* background: url(../Images/Spice72.png) no-repeat top center/cover; */
-    /* height: 60vh;
-     */
-    background-attachment: fixed;
+    background: url(../Components/images/Spice72.png) no-repeat top center/cover; 
+     height: 60vh;
+    
+    background-attachment: fixed; 
   }
   
   .wrap-3 {
@@ -817,7 +817,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background: linear-gradient(rgb(52 46 46 / 97%), rgb(0 0 0 / 78%)), url(../Images/spice55.jpg) no-repeat center/cover; */
+    background: linear-gradient(rgb(52 46 46 / 97%), rgb(0 0 0 / 78%)), url(../Components/images/spice55.jpg) no-repeat center/cover;
   
   }
   
@@ -858,7 +858,7 @@
   }
   
   .footer {
-    /* background: linear-gradient(180deg, #2a212199 0%, #040402ab 100%), url(../Images/Spice.jpg) no-repeat center/cover; */
+    background: linear-gradient(180deg, #2a212199 0%, #040402ab 100%), url(../Components/images/Spice.jpg) no-repeat center/cover;
   
   }
   

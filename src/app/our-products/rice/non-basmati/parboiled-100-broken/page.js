@@ -115,27 +115,3 @@ export default function Paraboil (){
 }
 
 
-export function generateMetadata({ params }) {
-    return {
-        title: "Parboiled 100% Broken Rice Traders in Indiaz",
-        description: "Pile up your commodity stock with our top-tier Parboiled 100% Broken rice quality, Trade-Pros is one of the best parboiled 100% broken rice traders in India.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/non-basmati/parboiled-100-broken/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "parboiled-100-broken",
-        ogDescription: "Pile up your commodity stock with our top-tier Parboiled 100% Broken rice quality, Trade-Pros is one of the best parboiled 100% broken rice traders in India.",
-        ogUrl: "https://trade-pros.org/our-products/rice/non-basmati/parboiled-100-broken/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

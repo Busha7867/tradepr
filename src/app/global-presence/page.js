@@ -103,27 +103,3 @@ export default function Global() {
         </div>
     )
 }
-export function generateMetadata({ params }) {
-    return {
-        title: "international commodity market - Trade-Pros ",
-        description: "We are the best commodity trading company in the international commodity market. Source with the finest traders with exceptional quality and expertise.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/global-presence/"}`,
-        
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "Global Presence",
-        ogDescription: "We are the best commodity trading company in the international commodity market. Source with the finest traders with exceptional quality and expertise.",
-        ogUrl: "https://trade-pros.org/global-presence/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2023/09/global-presence.jpg",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "1 minute"
-    }
-}

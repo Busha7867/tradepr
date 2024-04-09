@@ -99,28 +99,3 @@ export default function MustardSeeds () {
   )
 }
 
-
-export function generateMetadata({ params }) {
-  return {
-      title: "Mustard Seeds spices exported from india - Trade-Pros ",
-      description: "With access to pure quality mustard seeds, individuals can benefit from its anti-inflammatory properties. If you’re in need of it, do look up Trade Pros.",
-      alternates: {
-          canonical: `${"https://trade-pros.org/our-products/spices/mustard-seeds/"}`,
-
-
-      },
-      ogLocale: "en_US",
-      ogType: "article",
-      ogTitle: "Mustard Seeds",
-      ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
-      ogUrl: "https://trade-pros.org/our-products/spices/mustard-seeds/",
-      ogSiteName: "Trade-Pros",
-      articlePublisher: "https://www.facebook.com/tradepross",
-      articleModifiedTime: "2023-09-05T06:27:42+00:00",
-      ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-      twitterCard: "summary_large_image",
-      twitterSite: "@trade_pross",
-      twitterLabel1: "Est. reading time",
-      twitterData1: "28 minute"
-  }
-}

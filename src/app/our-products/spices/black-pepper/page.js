@@ -82,27 +82,3 @@ export default function BlackPepper() {
     )
 }
 
-export function generateMetadata({ params }) {
-    return {
-        title: "Black Pepper Spices Exported from India",
-        description: "Do you want to trade in Black Pepper and other spices? Black Pepper spices exported from India partner with Trade Pros, your source for top-tier Black Pepper ",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/spices/black-pepper/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "Amchur (Powder &amp; Whole)",
-        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
-        ogUrl: "https://trade-pros.org/our-products/spices/black-pepper/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

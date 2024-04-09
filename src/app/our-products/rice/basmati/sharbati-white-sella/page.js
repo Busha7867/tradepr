@@ -1,4 +1,4 @@
-'
+
 
 import React from 'react';
 import cor from '@/Components/Riceimages/pngegg.png';
@@ -101,27 +101,3 @@ export default function Sharbati() {
     )
 }
 
-export function generateMetadata({ params }) {
-    return {
-        title: "Sharbati White Sella Rice Exported from India ",
-        description: "Contact us today and get a fresh batch of the finest Sharbati White Sella rice for yourself. Its antioxidant-rich nature makes it a healthy choice.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/basmati/sharbati-white-sella/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "sharbati-white-sella  ",
-        ogDescription: "Contact us today and get a fresh batch of the finest Sharbati White Sella rice for yourself. Its antioxidant-rich nature makes it a healthy choice.",
-        ogUrl: "https://trade-pros.org/our-products/rice/basmati/sharbati-white-sella/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

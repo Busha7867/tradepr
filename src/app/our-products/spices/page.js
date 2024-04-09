@@ -445,27 +445,3 @@ export default function Spices() {
     )
 }
 
-export function generateMetadata({ params }) {
-    return {
-        title: "Wholesale Bulk Spices Suppliers in india",
-        description: "We provide premium-quality commodities worldwide. Trade Pros is one of the best wholesale bulk spices suppliers in India. Contact us today.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/spices/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "Global Presence",
-        ogDescription: "We are the best commodity trading company in the international commodity market. Source with the finest traders with exceptional quality and expertise.",
-        ogUrl: "https://trade-pros.org/our-products/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

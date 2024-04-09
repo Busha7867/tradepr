@@ -82,28 +82,3 @@ export default function FennelSeeds (){
     )
 }
 
-export function generateMetadata({ params }) {
-    return {
-        title: "Best Fennel Seeds Spices Exporters in India",
-        description: "We are one of the best spice suppliers in India, offering top-quality fennel seeds and other Indian spices. Contact us for best Fennel Seeds spices from India.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/spices/fennel-seeds/"}`,
-  
-  
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "Amchur (Powder &amp; Whole)",
-        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
-        ogUrl: "https://trade-pros.org/our-products/spices/fennel-seeds/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-  }
-  

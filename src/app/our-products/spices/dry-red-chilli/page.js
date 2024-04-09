@@ -82,27 +82,3 @@ export default function RedChilli () {
     )
 }
 
-export function generateMetadata({ params }) {
-    return {
-        title: "Dry Red Chilli Exporters From India - Trade-Pros ",
-        description: "Get the world-famous & high-quality Indian red chilli from Trade Pros at the most reasonable rates. Contact Trade Pros for world-class spices & rice.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/spices/dry-red-chilli/"}`,
-  
-  
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "Dry-Red-Chilli",
-        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
-        ogUrl: "https://trade-pros.org/our-products/spices/dry-red-chilli/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-  }

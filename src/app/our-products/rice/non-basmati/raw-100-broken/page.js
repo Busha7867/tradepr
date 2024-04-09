@@ -88,27 +88,3 @@ export default function Raw100 () {
         </div>
     )
 }
-export function generateMetadata({ params }) {
-    return {
-        title: "Raw 100% Broken rice traders in India - Trade-Pros",
-        description: "Trade Pros presents Raw 100% Broken Rice. Your source for premium quality aromatic rice that stands out and drives trade success.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/non-basmati/raw-100-broken/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "raw-100-broken",
-        ogDescription: "Trade Pros presents Raw 100% Broken Rice. Your source for premium quality aromatic rice that stands out and drives trade success.s",
-        ogUrl: "https://trade-pros.org/our-products/rice/non-basmati/raw-100-broken/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

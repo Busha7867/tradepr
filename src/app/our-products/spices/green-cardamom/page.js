@@ -93,27 +93,3 @@ export default function Cardamom (){
 }
 
 
-export function generateMetadata({ params }) {
-    return {
-        title: "Green Cardamom Spices Exported from India - Trade-Pros ",
-        description: "Traders worldwide looking for the best Green Cardamom spices supplier in India must connect with Trade-Pros for high-quality spices at a reasonable price.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/spices/green-cardamom/"}`,
-  
-  
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "Green Cardamom",
-        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
-        ogUrl: "https://trade-pros.org/our-products/spices/green-cardamom/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-  }

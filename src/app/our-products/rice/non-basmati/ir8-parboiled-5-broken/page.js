@@ -103,28 +103,4 @@ export default function IR8paraboil () {
         </div>
     )
 }
-export function generateMetadata({ params }) {
-    return {
-        title: "IR8 Parboiled 5% Broken Rice Traders in India ",
-        description: "Connect to Trade Pros and access pure yield of silky long-grained IR8 Parboiled 5% Broken rice, the farm fresh batch of which is sold by Trade Pros.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/non-basmati/ir8-parboiled-5-broken/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "sharbati-white-sella  ",
-        ogDescription: "Connect to Trade Pros and access pure yield of silky long-grained IR8 Parboiled 5% Broken rice, the farm fresh batch of which is sold by Trade Pros.",
-        ogUrl: "https://trade-pros.org/our-products/rice/non-basmati/ir8-parboiled-5-broken/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}
 

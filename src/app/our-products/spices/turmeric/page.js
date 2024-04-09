@@ -81,29 +81,3 @@ export default function Turmeric() {
         </div>
     )
 }
-export function generateMetadata({ params }) {
-    return {
-        title: "Turmeric Spices Exporters in India - Trade-Pros",
-        description: "Trade Pros is one of the best turmeric spices exporters in India. We are the leading spice dealers in the Indian commodity market.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/spices/turmeric/"}`,
-  
-  
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "Turmeric",
-        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
-        ogUrl: "https://trade-pros.org/our-products/spices/turmeric/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-  }
-  
-  

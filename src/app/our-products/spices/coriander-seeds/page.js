@@ -85,28 +85,5 @@ export default function Corindarseeds () {
 
 
 
-export function generateMetadata({ params }) {
-    return {
-        title: "Coriander Seeds spices Manufacturer in India",
-        description: "Trade Pros is your gateway to top-quality coriander seeds and premium spices. We are the best coriander seeds manufacturer in India. Contact us for more information.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/spices/coriander-seeds/"}`,
-  
-  
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "Amchur (Powder &amp; Whole)",
-        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
-        ogUrl: "https://trade-pros.org/our-products/spices/coriander-seeds/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-  }
+
   

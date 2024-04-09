@@ -83,29 +83,6 @@ export default function Sharbatcolden() {
     )
 }
 
-export function generateMetadata({ params }) {
-    return {
-        title: "Sharbati Golden Sella rice traders in India - Trade-Pros",
-        description: "Get the unmatched taste of Sharbati Golden Sella basmati rice that you’ve been searching for. Now delve into the hearty path with the best yield.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/basmati/sharbati-golden-sella/"}`,
 
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "sharbati-golden-sella",
-        ogDescription: "Get the unmatched taste of Sharbati Golden Sella basmati rice that you’ve been searching for. Now delve into the hearty path with the best yield",
-        ogUrl: "https://trade-pros.org/our-products/rice/basmati/sharbati-golden-sella/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}
 
 

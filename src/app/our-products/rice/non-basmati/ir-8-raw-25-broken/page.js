@@ -111,28 +111,3 @@ export default function IR8Raw25() {
         </div>
     )
 }
-
-export function generateMetadata({ params }) {
-    return {
-        title: "IR8 Raw 25% Broken Rice Traders in India | Trade-Pros ",
-        description: "Buy top IR8 Raw 25% Broken Rice in India from Trade Pros the best supplier of IR8 Raw 25% Broken Rice. We offer the best-in-class rice and spices in India",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/non-basmati/ir-8-raw-25-broken/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "sharbati-white-sella  ",
-        ogDescription: "Buy top IR8 Raw 25% Broken Rice in India from Trade Pros the best supplier of IR8 Raw 25% Broken Rice. We offer the best-in-class rice and spices in India",
-        ogUrl: "https://trade-pros.org/our-products/rice/non-basmati/ir-8-raw-25-broken/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

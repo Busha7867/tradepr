@@ -95,27 +95,3 @@ export default function IR8Raw() {
     )
 }
 
-export function generateMetadata({ params }) {
-    return {
-        title: "IR8 Raw 5% Broken rice traders in India - Trade-Pros ",
-        description: "Choose Trade Pros and get IR Raw 5% Broken rice that is pure in terms of quality, aroma, hygienic packing, and nutritional value.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/non-basmati/ir-8-raw-5-broken/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "ir-8-raw-5-broken  ",
-        ogDescription: "The wide range of non-basmati rice that we offer, are nutrient-rich, packed hygienically, and processed nicely. Connect to Trade Pros to get your batch now.",
-        ogUrl: "https://trade-pros.org/our-products/rice/non-basmati/ir-8-raw-5-broken/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

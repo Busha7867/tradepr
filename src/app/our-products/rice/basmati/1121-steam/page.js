@@ -79,27 +79,3 @@ export default function Steam () {
         </div>
     )
 }
-export function generateMetadata({ params }) {
-    return {
-        title: "1121 Steam Rice Traders in India - Trade-Pros ",
-        description: "Consumers who are looking for the best 1121 Steam rice traders in India, Henceforth, connecting with Trade Pros will help them get the finest product.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/basmati/1121-steam/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "1121-steam",
-        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
-        ogUrl: "https://trade-pros.org/our-products/rice/basmati/1121-steam/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

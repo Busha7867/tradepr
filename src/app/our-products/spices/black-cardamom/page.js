@@ -114,27 +114,3 @@ export default function BlackCardamon()  {
 }
 
 
-export function generateMetadata({ params }) {
-    return {
-        title: "Black Cardamon Spices Exported from India | Trade-Pros",
-        description: "Experience the richness of Black Cardamom with Trade Pros: Best Cardamom spices exporters in India. Your source for top black Cardamom and other Indian spices.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/spices/black-cardamon/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "Black Cardamon",
-        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
-        ogUrl: "https://trade-pros.org/our-products/spices/black-cardamon/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

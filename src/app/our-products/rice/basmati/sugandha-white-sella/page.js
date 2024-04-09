@@ -1,4 +1,4 @@
-'use client';
+
 
 
 import React from 'react';
@@ -96,29 +96,6 @@ export default function SugandhaWhite () {
     </div>
   )
 }
-export function generateMetadata({ params }) {
-    return {
-        title: "Sugandha White Sella rice traders in India - Trade-Pros ",
-        description: "Our finest yield, helps us maintain the trust of all our customers. Therefore, anyone who wants to grab farm fresh Sugandha White Sella, choose Trade Pros.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/basmati/sugandha-white-sella/"}`,
 
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "sharbati-white-sella  ",
-        ogDescription: "Our finest yield, helps us maintain the trust of all our customers. Therefore, anyone who wants to grab farm fresh Sugandha White Sella, choose Trade Pros.",
-        ogUrl: "https://trade-pros.org/our-products/rice/basmati/sugandha-white-sella/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}
 
 

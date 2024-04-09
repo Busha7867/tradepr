@@ -82,29 +82,6 @@ export default function White(){
     </div>
   )
 }
-export function generateMetadata({ params }) {
-    return {
-        title: "1401 White rice traders in India - Trade-Pros ",
-        description: "Make sure you buy your order of 1401 White basmati rice from Trade Pros, where you get high-quality products packed with necessary nutrients, every time.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/basmati/1401-white/"}`,
 
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "1401-white",
-        ogDescription: "Make sure you buy your order of 1401 White basmati rice from Trade Pros, where you get high-quality products packed with necessary nutrients, every time.",
-        ogUrl: "https://trade-pros.org/our-products/rice/basmati/1401-white/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}
 
 

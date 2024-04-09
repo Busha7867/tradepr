@@ -85,27 +85,3 @@ export default function Rb() {
     )
 }
 
-export function generateMetadata({ params }) {
-    return {
-        title: "IR 64/36 Raw 25% Broken rice traders in India - Trade-Pros",
-        description: "The IR 64/36 Raw 25% Broken rice is one of the finest to cook in the non-basmati rice category. Get a fresh pack at Trade Pros and taste superior quality today.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/non-basmati/ir-64-36-raw-25-broken/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "1121-golden-sella",
-        ogDescription: "The IR 64/36 Raw 25% Broken rice is one of the finest to cook in the non-basmati rice category. Get a fresh pack at Trade Pros and taste superior quality today.",
-        ogUrl: "https://trade-pros.org/our-products/rice/non-basmati/ir-64-36-raw-25-broken/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

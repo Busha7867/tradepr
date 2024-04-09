@@ -107,28 +107,3 @@ export default function WhiteSella () {
     </div>
   )
 }
-export function generateMetadata({ params }) {
-    return {
-        title: "1121 White Sella Rice Traders in India - Trade-Pros ",
-        description: "For anyone who is looking for 1121 White Sella long grain aromatic rice, Trade Pros is best choice as we have the finest quality rice available in the world",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/basmati/1121-white-sella/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "1121-white-sella",
-        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
-        ogUrl: "https://trade-pros.org/our-products/rice/basmati/1121-white-sella/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}
-

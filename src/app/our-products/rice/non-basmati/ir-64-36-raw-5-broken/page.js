@@ -88,27 +88,3 @@ export default function Rbroken() {
 }
 
 
-export function generateMetadata({ params }) {
-    return {
-        title: "IR 64/36 Raw 5% Broken rice traders in India - Trade-Pros ",
-        description: "Due to their high dietary value and price, the IR 64/36 Raw 5% Broken is demanded internationally. Order yours with us and get the best quality rice.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/non-basmati/ir-64-36-raw-5-broken/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "sharbati-white-sella  ",
-        ogDescription: "Due to their high dietary value and price, the IR 64/36 Raw 5% Broken is demanded internationally. Order yours with us and get the best quality rice.",
-        ogUrl: "https://trade-pros.org/our-products/rice/non-basmati/ir-64-36-raw-5-broken/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
-}

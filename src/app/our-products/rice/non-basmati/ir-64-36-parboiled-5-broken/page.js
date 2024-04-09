@@ -1,4 +1,4 @@
-'use client';
+
 import React from 'react';
 import cor from '@/Components/Riceimages/pngegg.png';
 import Ginger from '.@/Components/Riceimages/Super.png';
@@ -108,28 +108,4 @@ export default function Parboiled() {
             <Footer />
         </div>
     )
-}
-export function generateMetadata({ params }) {
-    return {
-        title: "IR 64/36 Parboiled 5% Broken Rice Traders in India",
-        description: "Get the aromatic & excellently processed IR 64/36 Parboiled 5% Broken rice that became the most plated meal crop globally, through us, and enjoy its flavor.",
-        alternates: {
-            canonical: `${"https://trade-pros.org/our-products/rice/non-basmati/ir-64-36-parboiled-5-broken/"}`,
-
-
-        },
-        ogLocale: "en_US",
-        ogType: "article",
-        ogTitle: "sharbati-white-sella  ",
-        ogDescription: "Get the aromatic & excellently processed IR 64/36 Parboiled 5% Broken rice that became the most plated meal crop globally, through us, and enjoy its flavor.",
-        ogUrl: "https://trade-pros.org/our-products/rice/non-basmati/ir-64-36-parboiled-5-broken/",
-        ogSiteName: "Trade-Pros",
-        articlePublisher: "https://www.facebook.com/tradepross",
-        articleModifiedTime: "2023-09-05T06:27:42+00:00",
-        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
-        twitterCard: "summary_large_image",
-        twitterSite: "@trade_pross",
-        twitterLabel1: "Est. reading time",
-        twitterData1: "28 minute"
-    }
 }

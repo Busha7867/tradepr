@@ -4,7 +4,7 @@ import Ginger from '@/Components/Riceimages/Super.png';
 import Link from 'next/link';
 import Image from 'next/image';
 import { IoHome } from "react-icons/io5";
-import Circ from '@/Components/Images/spice-70.png';
+import Circ from '@/Components/images/spice-70.png';
 import Green from '@/Components/Riceimages/RawBroken.jpg';
 import Navbar from '@/Components/navbar/Navbar';
 import Counterup from '@/Components/Counterup';

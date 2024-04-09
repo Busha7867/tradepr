@@ -6,7 +6,7 @@ import Ginger from '@/Components/Riceimages/Super.png';
 import Link from 'next/link';
 import Image from 'next/image';
 import { IoHome } from "react-icons/io5";
-import Circ from '@/Components/Images/spice-70.png';
+import Circ from '@/Components/images/spice-70.png';
 import Green from '@/Components/Riceimages/Whitee.jpg';
 import Form from '@/Components/Form';
 import Counterup from '@/Components/Counterup';

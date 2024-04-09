@@ -1,4 +1,4 @@
-'use client';
+'
 
 import React from 'react';
 import cor from '@/Components/Riceimages/pngegg.png';

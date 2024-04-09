@@ -2,11 +2,11 @@
 
 import React from 'react';
 import cor from '@/Components/Riceimages/pngegg.png';
-import Ginger from '../../../../Riceimages/Super.png';
+import Ginger from '@/Components/Riceimages/Super.png';
 import Link from 'next/link';
 import Image from 'next/image';
 import { IoHome } from "react-icons/io5";
-import Circ from '@/Components/Images/spice-70.png';
+import Circ from '@/Components/images/spice-70.png';
 import Green from '@/Components/Riceimages/Sharbatisella.jpg';
 import Navbar from '@/Components/navbar/Navbar';
 import Counterup from '@/Components/Counterup';

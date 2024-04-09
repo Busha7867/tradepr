@@ -5,7 +5,7 @@ import React from 'react';
 import cor from '@/Components/Riceimages/pngegg.png';
 import Ginger from '@/Components/Riceimages/Super.png';
 import { IoHome } from "react-icons/io5";
-import Circ from '@/Components/Images/spice-70.png';
+import Circ from '@/Components/images/spice-70.png';
 import Link from 'next/link';
 import Image from 'next/image';
 import Green from '@/Components/Riceimages/Sugandha-Basmati.png';

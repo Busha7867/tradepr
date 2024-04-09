@@ -1,4 +1,3 @@
-'use client';
 
 import React from 'react';
 import cor from '@/Components/images/8.png';
@@ -15,7 +14,7 @@ import Footer from '@/Components/Footer';
 
 
 
-const PomegranateSeeds = () => {
+export default function PomegranateSeeds () {
     return (
         <div>
        <Navbar/>
@@ -86,4 +85,27 @@ const PomegranateSeeds = () => {
     )
 }
 
-export default PomegranateSeeds;
+export function generateMetadata({ params }) {
+    return {
+        title: "Pomegranate Seeds Spices Exported from India - Trade-Pros  ",
+        description: "Trade-Pros in India is your reliable partner as the leading Pomegranate Seeds spices exporter if you are seeking one. Hire us for high-quality spices in India!",
+        alternates: {
+            canonical: `${"https://trade-pros.org/our-products/spices/pomegranate-seeds/"}`,
+  
+  
+        },
+        ogLocale: "en_US",
+        ogType: "article",
+        ogTitle: "Pomegranate Seeds",
+        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
+        ogUrl: "https://trade-pros.org/our-products/spices/pomegranate-seeds/",
+        ogSiteName: "Trade-Pros",
+        articlePublisher: "https://www.facebook.com/tradepross",
+        articleModifiedTime: "2023-09-05T06:27:42+00:00",
+        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+        twitterCard: "summary_large_image",
+        twitterSite: "@trade_pross",
+        twitterLabel1: "Est. reading time",
+        twitterData1: "28 minute"
+    }
+  }

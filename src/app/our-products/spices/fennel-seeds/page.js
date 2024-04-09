@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 import cor from '@/Components/images/8.png';
 import Ginger from '@/Components/images/5.png';
@@ -15,10 +14,10 @@ import Footer from '@/Components/Footer';
 
 
 
-const FennelSeeds = () => {
+export default function FennelSeeds (){
     return (
         <div>
-            <Navbar/>
+            <Navbar />
             <div className="about-1">
                 <div className="container">
                     <div className="row">
@@ -72,15 +71,39 @@ const FennelSeeds = () => {
                             <p>
                                 Fennel Seeds are also referred to as Foeniculum vulgare. They frequently devour fennel seeds after each meal for quicker digestion and refreshment. However, these tiny seeds aren’t only for refreshment functions but also important for medicinal and culinary practices. Fennel flora is inexperienced and white, with feathery leaves and yellow flowers. They are regarded as providing a huge variety of dietary residences that enhance fitness. Yet, the taste of the seeds is stronger because of their effective vital oils.
                             </p>
-<Form/>
+                            <Form />
                         </div>
                     </div>
                 </div>
             </div>
-        <Counterup/>
-        <Footer/>
+            <Counterup />
+            <Footer />
         </div>
     )
 }
 
-export default FennelSeeds;
+export function generateMetadata({ params }) {
+    return {
+        title: "Best Fennel Seeds Spices Exporters in India",
+        description: "We are one of the best spice suppliers in India, offering top-quality fennel seeds and other Indian spices. Contact us for best Fennel Seeds spices from India.",
+        alternates: {
+            canonical: `${"https://trade-pros.org/our-products/spices/fennel-seeds/"}`,
+  
+  
+        },
+        ogLocale: "en_US",
+        ogType: "article",
+        ogTitle: "Amchur (Powder &amp; Whole)",
+        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
+        ogUrl: "https://trade-pros.org/our-products/spices/fennel-seeds/",
+        ogSiteName: "Trade-Pros",
+        articlePublisher: "https://www.facebook.com/tradepross",
+        articleModifiedTime: "2023-09-05T06:27:42+00:00",
+        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+        twitterCard: "summary_large_image",
+        twitterSite: "@trade_pross",
+        twitterLabel1: "Est. reading time",
+        twitterData1: "28 minute"
+    }
+  }
+  

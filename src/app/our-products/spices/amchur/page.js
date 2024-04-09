@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 import cor from '@/Components/images/8.png';
 import Ginger from '@/Components/images/5.png';
@@ -15,9 +14,12 @@ import Form from '@/Components/Form';
 
 
 
-const Amchur = () => {
+export default function Amchur(){
     return (
+     
         <div>
+
+          
             <Navbar />
 
             <div className="about-1">
@@ -85,4 +87,27 @@ const Amchur = () => {
     )
 }
 
-export default Amchur;
+export function generateMetadata({ params }) {
+    return {
+        title: "Best Amchur Exporters in India | Trade-Pros",
+        description: "For international traders seeking reliable and the best Amchur exporters in India, Trade-Pros is the ideal company to collaborate with.",
+        alternates: {
+            canonical: `${"https://trade-pros.org/our-products/spices/amchur/"}`,
+
+
+        },
+        ogLocale: "en_US",
+        ogType: "article",
+        ogTitle: "Amchur (Powder &amp; Whole)",
+        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
+        ogUrl: "https://trade-pros.org/our-products/spices/amchur/",
+        ogSiteName: "Trade-Pros",
+        articlePublisher: "https://www.facebook.com/tradepross",
+        articleModifiedTime: "2023-09-05T06:27:42+00:00",
+        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+        twitterCard: "summary_large_image",
+        twitterSite: "@trade_pross",
+        twitterLabel1: "Est. reading time",
+        twitterData1: "28 minute"
+    }
+}

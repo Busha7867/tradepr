@@ -1,4 +1,3 @@
-'use client';
 
 import React from 'react';
 import cor from '@/Components/images/8.png';
@@ -14,7 +13,7 @@ import Counterup from '@/Components/Counterup';
 import Footer from '@/Components/Footer';
 
 
-const CaromSeeds = () => {
+export default function CaromSeeds () {
     return (
         <div>
        <Navbar/>
@@ -85,5 +84,27 @@ const CaromSeeds = () => {
         </div>
     )
 }
+export function generateMetadata({ params }) {
+    return {
+        title: "Carom Seeds Exporters from India | Trade-Pros",
+        description: "Among the top Carom seeds exporters from India, Trade Pros tops the chart with high-quality spices, support, and competitive prices.",
+        alternates: {
+            canonical: `${"https://trade-pros.org/our-products/spices/carom-seeds/"}`,
 
-export default CaromSeeds;
+
+        },
+        ogLocale: "en_US",
+        ogType: "article",
+        ogTitle: "Black Cardamon",
+        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
+        ogUrl: "https://trade-pros.org/our-products/spices/carom-seeds/",
+        ogSiteName: "Trade-Pros",
+        articlePublisher: "https://www.facebook.com/tradepross",
+        articleModifiedTime: "2023-09-05T06:27:42+00:00",
+        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+        twitterCard: "summary_large_image",
+        twitterSite: "@trade_pross",
+        twitterLabel1: "Est. reading time",
+        twitterData1: "28 minute"
+    }
+}

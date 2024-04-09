@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 import cor from '@/Components/images/8.png';
 import Ginger from '@/Components/images/5.png';
@@ -14,7 +13,7 @@ import Counterup from '@/Components/Counterup';
 import Footer from '@/Components/Footer';
 
 
-const Cinnamon = () => {
+export default function Cinnamon(){
     return (
         <div>
             <Navbar />
@@ -87,4 +86,27 @@ const Cinnamon = () => {
     )
 }
 
-export default Cinnamon;
+export function generateMetadata({ params }) {
+    return {
+        title: "Cinnamon Sticks Suppliers in India",
+        description: "Trade Pros is a leading name among the best Cinnamon stick suppliers in India. Anyone looking for Cinnamon Sticks in India must connect with us!",
+        alternates: {
+            canonical: `${"https://trade-pros.org/our-products/spices/cinnamon-sticks/"}`,
+
+
+        },
+        ogLocale: "en_US",
+        ogType: "article",
+        ogTitle: "Amchur (Powder &amp; Whole)",
+        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
+        ogUrl: "https://trade-pros.org/our-products/spices/cinnamon-sticks/",
+        ogSiteName: "Trade-Pros",
+        articlePublisher: "https://www.facebook.com/tradepross",
+        articleModifiedTime: "2023-09-05T06:27:42+00:00",
+        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+        twitterCard: "summary_large_image",
+        twitterSite: "@trade_pross",
+        twitterLabel1: "Est. reading time",
+        twitterData1: "28 minute"
+    }
+}

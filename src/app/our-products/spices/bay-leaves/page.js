@@ -1,4 +1,4 @@
-'use client';
+
 import React from 'react';
 import cor from '@/Components/images/8.png';
 import Ginger from '@/Components/images/5.png';
@@ -12,7 +12,7 @@ import Form from '@/Components/Form';
 import Counterup from '@/Components/Counterup';
 import Footer from '@/Components/Footer';
 
-const BayLeaves = () => {
+export default function BayLeaves(){
     return (
         <div>
          <Navbar/>
@@ -83,4 +83,27 @@ const BayLeaves = () => {
     )
 }
 
-export default BayLeaves;
+export function generateMetadata({ params }) {
+    return {
+        title: "Bay Leaves spices exported from india - Trade-Pros",
+        description: "Buy top-quality Bay Leaves from the most prominent spice trader in India. We provide all kinds of authentic Indian spices!",
+        alternates: {
+            canonical: `${"https://trade-pros.org/our-products/spices/bay-leaves/"}`,
+
+
+        },
+        ogLocale: "en_US",
+        ogType: "article",
+        ogTitle: "Amchur (Powder &amp; Whole)",
+        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
+        ogUrl: "https://trade-pros.org/our-products/spices/bay-leaves/",
+        ogSiteName: "Trade-Pros",
+        articlePublisher: "https://www.facebook.com/tradepross",
+        articleModifiedTime: "2023-09-05T06:27:42+00:00",
+        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+        twitterCard: "summary_large_image",
+        twitterSite: "@trade_pross",
+        twitterLabel1: "Est. reading time",
+        twitterData1: "28 minute"
+    }
+}

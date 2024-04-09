@@ -65,10 +65,9 @@ import Navbar from '@/Components/navbar/Navbar';
 
 
 
-
-const OurProducts = () => {
-
-
+const OurProducts = ()=>{
+   
+  
 
 
     const [toggleState, setToggleState] = useState(1);
@@ -80,8 +79,9 @@ const OurProducts = () => {
 
     return (
         <div>
-            <Navbar/>
-            
+          
+            <Navbar />
+
 
             <div className="about-1">
                 <div className="container">
@@ -886,9 +886,10 @@ const OurProducts = () => {
                 </div>
             </div>
 
-          
+
         </div>
     )
 }
+
 
 export default OurProducts;

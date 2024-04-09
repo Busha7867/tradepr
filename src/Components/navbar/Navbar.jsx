@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState ,useEffect} from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import { IoIosArrowDown } from "react-icons/io";
@@ -19,13 +19,14 @@ import Logo from '../images/logo-s.png'
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaPinterestP, FaTumblr } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import $ from 'jquery';
-import { useEffect } from 'react';
+
 
 
 
 const Navbar = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
 
-
+ 
 
 
     const [click, setClick] = useState(false);
@@ -39,28 +40,21 @@ const Navbar = () => {
         setClick(false)
 
     }
+ 
     useEffect(() => {
-
-        $(document).ready(function () { 
-           $(window).scroll(function () {
-             var scroll = $(window).scrollTop();
-             if (scroll > 50) { 
-               $(".menu").css("background", "rgba(0, 0, 0, 0.5)");
-               $(".menu").css("bottom","90px")
-               $(".logo").css("width", "75px");
-               $(".logo").css("top", "5px");
+        $(window).scroll(function() {
+          if ($(document).scrollTop() > 50) {
+            $('.menu').addClass('shrink');
+            $('.logo').addClass('shrink__logo');
+            $(".logo").css("top", "5px");
+          } else {
+            $('.menu').removeClass('shrink');
+            $('.logo').removeClass('shrink__logo');
+          }
+        });
+      }, []);
    
-             }  
-   
-             else {
-           $(".menu").css("background", "#fff");
-             $(".logo").css("width", "127px");
-           $(".logo").css("top", "-37px");
-         }
-       })
-      })
-   
-    }, []);
+  
     return (
         <div className="div">
             <div className="wrap-1">

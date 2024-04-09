@@ -1,4 +1,4 @@
-'use client';
+
 import React from 'react';
 import cor from '@/Components/images/8.png';
 import Ginger from '@/Components/images/5.png';
@@ -14,10 +14,10 @@ import Footer from '@/Components/Footer';
 
 
 
-const BlackPepper = () => {
+export default function BlackPepper() {
     return (
         <div>
-     <Navbar/>
+            <Navbar />
             <div className="about-1">
                 <div className="container">
                     <div className="row">
@@ -71,15 +71,38 @@ const BlackPepper = () => {
                             <p>
                                 Black pepper has a pointy and mildly highly spiced taste that goes properly with many dishes. It is local to the Malabar Coast of India and is one of the earliest spices regarded. It’s made by grinding peppercorns, which can be dried berries from the vine Piper nigrum. Widely used as a spice across the international, pepper has a confined usage in medication as a carminative and a stimulant of gastric secretions.
                             </p>
-<Form/>
+                            <Form />
                         </div>
                     </div>
                 </div>
             </div>
-            <Counterup/>
-            <Footer/>
+            <Counterup />
+            <Footer />
         </div>
     )
 }
 
-export default BlackPepper;
+export function generateMetadata({ params }) {
+    return {
+        title: "Black Pepper Spices Exported from India",
+        description: "Do you want to trade in Black Pepper and other spices? Black Pepper spices exported from India partner with Trade Pros, your source for top-tier Black Pepper ",
+        alternates: {
+            canonical: `${"https://trade-pros.org/our-products/spices/black-pepper/"}`,
+
+
+        },
+        ogLocale: "en_US",
+        ogType: "article",
+        ogTitle: "Amchur (Powder &amp; Whole)",
+        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
+        ogUrl: "https://trade-pros.org/our-products/spices/black-pepper/",
+        ogSiteName: "Trade-Pros",
+        articlePublisher: "https://www.facebook.com/tradepross",
+        articleModifiedTime: "2023-09-05T06:27:42+00:00",
+        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+        twitterCard: "summary_large_image",
+        twitterSite: "@trade_pross",
+        twitterLabel1: "Est. reading time",
+        twitterData1: "28 minute"
+    }
+}

@@ -1,4 +1,3 @@
-'use client';
 
 
 import React from 'react';
@@ -20,7 +19,7 @@ import Footer from '@/Components/Footer';
 
 
 
-const Yellowchilli = () => {
+export default function Yellowchilli () {
     return (
         <div>
             <Navbar />
@@ -89,4 +88,28 @@ const Yellowchilli = () => {
     )
 }
 
-export default Yellowchilli;
+export function generateMetadata({ params }) {
+    return {
+        title: "Yellow Chilli Spices Suppliers in India",
+        description: "We are the best Yellow Chilli Spices Suppliers in India, offering almost 90% of spice varieties around the world. Connect with Trade Pros today!",
+        alternates: {
+            canonical: `${"https://trade-pros.org/our-products/spices/yellow-chilli/"}`,
+  
+  
+        },
+        ogLocale: "en_US",
+        ogType: "article",
+        ogTitle: "Yellow Chilli",
+        ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
+        ogUrl: "https://trade-pros.org/our-products/spices/yellow-chilli/",
+        ogSiteName: "Trade-Pros",
+        articlePublisher: "https://www.facebook.com/tradepross",
+        articleModifiedTime: "2023-09-05T06:27:42+00:00",
+        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+        twitterCard: "summary_large_image",
+        twitterSite: "@trade_pross",
+        twitterLabel1: "Est. reading time",
+        twitterData1: "28 minute"
+    }
+  }
+  

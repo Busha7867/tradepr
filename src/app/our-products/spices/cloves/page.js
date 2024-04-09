@@ -1,4 +1,4 @@
-'use client';
+
 import React from 'react';
 import cor from '@/Components/images/8.png';
 import Ginger from '@/Components/images/5.png';
@@ -16,7 +16,7 @@ import Spiceform from '@/Components/Spiceform';
 
 
 
-const Cloves = () => {
+export default function Cloves() {
   return (
     <div>
     <Navbar/>
@@ -120,4 +120,29 @@ const Cloves = () => {
   )
 }
 
-export default Cloves;
+
+
+export function generateMetadata({ params }) {
+  return {
+      title: "Cloves  spices exported from india - Trade-Pros",
+      description: "When all you seek, is the pinch of perfection in spices like cloves that unleash culinary magic, it’s then when experts like us matter. Connect with us to get your batch today!",
+      alternates: {
+          canonical: `${"https://trade-pros.org/our-products/spices/cloves/"}`,
+
+
+      },
+      ogLocale: "en_US",
+      ogType: "article",
+      ogTitle: "Amchur (Powder &amp; Whole)",
+      ogDescription: "We are a trusted amchur powder &amp; whole trader and supplier that has been serving in the market for years. So, if you are looking for the same. Connect with us!",
+      ogUrl: "https://trade-pros.org/our-products/spices/cloves//",
+      ogSiteName: "Trade-Pros",
+      articlePublisher: "https://www.facebook.com/tradepross",
+      articleModifiedTime: "2023-09-05T06:27:42+00:00",
+      ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+      twitterCard: "summary_large_image",
+      twitterSite: "@trade_pross",
+      twitterLabel1: "Est. reading time",
+      twitterData1: "28 minute"
+  }
+}

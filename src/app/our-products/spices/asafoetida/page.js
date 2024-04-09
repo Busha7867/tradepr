@@ -1,4 +1,3 @@
-'use client';
 import React from 'react';
 import cor from '@/Components/images/8.png';
 import Ginger from '@/Components/images/5.png';
@@ -13,7 +12,7 @@ import Footer from '@/Components/Footer';
 import Form from '@/Components/Form';
 
 
-const Asafoetida = () => {
+export default function Asafoetida() {
     return (
         <div>
             <Navbar />
@@ -81,4 +80,27 @@ const Asafoetida = () => {
     )
 }
 
-export default Asafoetida;
+export function generateMetadata({ params }) {
+    return {
+        title: "Asafoetida Spices Exporter from India",
+        description: "If you’re looking for the best Asafoetida Spices Exporter from India, you can get it conveniently at Trade Pros. We offer the finest quality products.",
+        alternates: {
+            canonical: `${"https://trade-pros.org/our-products/spices/asafoetida/"}`,
+
+
+        },
+        ogLocale: "en_US",
+        ogType: "article",
+        ogTitle: "Global Presence",
+        ogDescription: "We are the best commodity trading company in the international commodity market. Source with the finest traders with exceptional quality and expertise.",
+        ogUrl: "https://trade-pros.org/our-products/spices/asafoetida/",
+        ogSiteName: "Trade-Pros",
+        articlePublisher: "https://www.facebook.com/tradepross",
+        articleModifiedTime: "2023-09-05T06:27:42+00:00",
+        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+        twitterCard: "summary_large_image",
+        twitterSite: "@trade_pross",
+        twitterLabel1: "Est. reading time",
+        twitterData1: "28 minute"
+    }
+}

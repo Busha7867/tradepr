@@ -1,6 +1,5 @@
 
 
-'use client';
 import React from 'react';
 import cor from '@/Components/images/8.png';
 import Ginger from '@/Components/images/5.png';
@@ -38,10 +37,10 @@ import Footer from '@/Components/Footer';
 
 
 
-const Spices = () => {
+export default function Spices() {
     return (
         <div>
-            <Navbar/>
+            <Navbar />
 
             <div className="about-1">
                 <div className="container">
@@ -417,7 +416,7 @@ const Spices = () => {
                                 <div class="service-content">
                                     <div class="service-icon">
                                         <div className="card_img">
-                                            <Image src={Dryc} alt="redchilli" style={{width:"340px",height:"271px"}} />
+                                            <Image src={Dryc} alt="redchilli" style={{ width: "340px", height: "271px" }} />
                                         </div>
                                     </div>
                                     <div className="hedings">
@@ -440,10 +439,33 @@ const Spices = () => {
                     </div>
                 </div>
             </div>
-      <Counterup/>
-      <Footer/>
+            <Counterup />
+            <Footer />
         </div>
     )
 }
 
-export default Spices;
+export function generateMetadata({ params }) {
+    return {
+        title: "Wholesale Bulk Spices Suppliers in india",
+        description: "We provide premium-quality commodities worldwide. Trade Pros is one of the best wholesale bulk spices suppliers in India. Contact us today.",
+        alternates: {
+            canonical: `${"https://trade-pros.org/our-products/spices/"}`,
+
+
+        },
+        ogLocale: "en_US",
+        ogType: "article",
+        ogTitle: "Global Presence",
+        ogDescription: "We are the best commodity trading company in the international commodity market. Source with the finest traders with exceptional quality and expertise.",
+        ogUrl: "https://trade-pros.org/our-products/",
+        ogSiteName: "Trade-Pros",
+        articlePublisher: "https://www.facebook.com/tradepross",
+        articleModifiedTime: "2023-09-05T06:27:42+00:00",
+        ogImage: "https://trade-pros.org/wp-content/uploads/2022/11/logo.png",
+        twitterCard: "summary_large_image",
+        twitterSite: "@trade_pross",
+        twitterLabel1: "Est. reading time",
+        twitterData1: "28 minute"
+    }
+}
